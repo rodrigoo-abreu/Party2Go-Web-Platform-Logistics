@@ -13,7 +13,7 @@ import { getFirestore } from "firebase/firestore";
 
 // TODO: O utilizador precisa de substituir estes valores pelo código gerado na consola do Firebase
 const firebaseConfig = {
-  apiKey: "AIzaSyBqaEE3qDjlja7NSsrPWd_TUzWh1956D2E",
+  apiKey: "process.env.FIREBASE_API_KEY",
   authDomain: "pw-autenticacao.firebaseapp.com",
   projectId: "pw-autenticacao",
   storageBucket: "pw-autenticacao.firebasestorage.app",
